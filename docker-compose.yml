@@ -1,0 +1,6 @@
+version: "2"
+services:
+  reverse-f8lure:
+   build: .
+   restart: always
+   env_file: tid.env
