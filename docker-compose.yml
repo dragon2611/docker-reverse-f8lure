@@ -4,3 +4,4 @@ services:
    build: .
    restart: always
    env_file: tid.env
+   tty: true
