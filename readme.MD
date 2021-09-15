@@ -1,10 +1,6 @@
 Unoffical Reverse F8lure docker.
 
-Usage (Docker)
-docker build . -t reversef8lure
-docker run -t -env TID=<secret-id> reversef8lure
-
-Usage (Docker-Compose)  - RECCOMENDED 
+Usage (Docker-Compose)
 edit tid.env and put your test id
 docker-compose up
 

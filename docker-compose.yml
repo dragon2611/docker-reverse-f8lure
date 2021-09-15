@@ -1,7 +1,10 @@
-version: "2"
+version: "2.3"
 services:
   reverse-f8lure:
    build: .
    restart: always
    env_file: tid.env
    tty: true
+   network_mode: host
+   cpuset: 0,0
+   cpu_shares: 2048
